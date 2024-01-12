@@ -333,21 +333,27 @@
         </div>
         <div class="footer-form-container">
           <p class="footer-form-paragraf">Subscribe</p>
-          <form class="footer-form">
-            <label class="footer-form-label">
+          <form
+            class="footer-form"
+            name="signup_form"
+            autocomplete="on"
+            novalidate=""
+          >
+            <label for="input" class="footer-form-label">
               <input
+                id="input"
                 name="email"
                 type="email"
-                placeholder="Email"
+                placeholder="E-mail"
                 class="footer-form-input"
               />
-              <button type="submit" class="footer-form-button">
-                Subscribe
-                <svg width="24" height="24" class="footer-form-button-icon">
-                  <use href="./images/icons.svg#icon-icon-send" />
-                </svg>
-              </button>
             </label>
+            <button type="submit" class="footer-form-button">
+              Subscribe
+              <svg width="24" height="24" class="footer-form-button-icon">
+                <use href="./images/icons.svg#icon-icon-send" />
+              </svg>
+            </button>
           </form>
         </div>
       </div>
