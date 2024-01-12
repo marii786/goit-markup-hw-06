@@ -457,6 +457,7 @@ color: var(--brand-color-white);
 
 .footer-form-button-icon {
   margin-left: 16px;
+  fill: var(--brand-color-white);
 }
 
 /* index.html */
