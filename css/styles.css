@@ -148,7 +148,6 @@ h2 {
   border-radius: 2px;
 }
 
-
 .header-address {
   color: var(--brand-color-slate);
   font-style: normal;
@@ -300,7 +299,6 @@ h2 {
   padding: 0;
 }
 
-
 .portfolio-div-section {
   padding: 32px 16px;
   border: 1px solid var(--brand-color-cornflower);
@@ -399,23 +397,22 @@ h2 {
   fill: var(--brand-color-cloud);
 }
 
-.footer-form-container {
-
-}
-
 .footer-form-paragraf {
-margin-bottom: 16px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--brand-color-white);
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-white);
+  padding-left: 80px;
 }
 
 .footer-form {
   display: flex;
+  padding-left: 80px;
 }
 .footer-form-label {
+  display: inline-flex;
   gap: 24px;
 }
 
