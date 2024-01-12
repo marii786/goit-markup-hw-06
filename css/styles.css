@@ -410,6 +410,7 @@ h2 {
 .footer-form {
   display: flex;
   padding-left: 80px;
+  gap: 24px;
 }
 .footer-form-label {
   display: inline-flex;
