@@ -916,7 +916,7 @@ h2 {
 }
 
 .modal-icon:focus {
-fill: var(--brand-color-iris);
+  fill: #4D5AE5;
 }
 
 .modal-fifth-input:checked + .modal-form-fifth-label span:first-child {
