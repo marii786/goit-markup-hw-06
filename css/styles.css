@@ -979,3 +979,27 @@ fill: var(--brand-color-iris);
 .privacy-policy {
   color: var(--brand-color-iris);
 }
+
+.modal-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: var(--header-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-white);
+  cursor: pointer;
+  background-color: var(--brand-color-iris);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-iris);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
