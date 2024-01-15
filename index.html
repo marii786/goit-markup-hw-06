@@ -547,6 +547,74 @@
         <p class="modal-paragraf">
           Leave your contacts and we will call you back
         </p>
+        <form>
+          <div class="modal-container-first">
+            <label for="user-name" class="modal-form-label">Name</label>
+            <div class="modal-container-second">
+              <input
+                id="user-name"
+                name="user-name"
+                type="text"
+                class="modal-form-input"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-VectorName" />
+              </svg>
+            </div>
+          </div>
+          <div class="modal-container-first">
+            <label for="user-name" class="modal-form-label">Phone</label>
+            <div class="modal-container-second">
+              <input
+                id="user-phone"
+                name="user-name"
+                type="text"
+                class="modal-form-input"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-VectorPhone" />
+              </svg>
+            </div>
+          </div>
+          <div class="modal-container-first">
+            <label for="user-name" class="modal-form-label">Email</label>
+            <div class="modal-container-second">
+              <input
+                id="user-mail"
+                name="user-name"
+                type="text"
+                class="modal-form-input"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-VectorEmail" />
+              </svg>
+            </div>
+          </div>
+          <div class="modal-container-third">
+            <label for="user-comment" class="modal-form-label">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="modal-textarea"
+            ></textarea>
+          </div>
+          <div class="modal-container-fourth">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="modal-fifth-input"
+              class="visually-hidden"
+            />
+            <label id="user-privacy" class="modal-form-fifth-label">I accept the terms and conditions of the<span class="modal-form-fifth-label-span">
+              <svg width="10" height="8" class="modal-fifth-icon">
+                <use href="./images/icons.svg#icon-Checkbox" />
+              </svg>
+            </span></label>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
