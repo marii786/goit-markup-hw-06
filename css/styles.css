@@ -964,14 +964,14 @@ h2 {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  padding: 0;
+  margin-right: 8px;
 }
 
 .modal-fifth-icon {
   flex-shrink: 0;
-  fill: var(--brand-color-ocean);
   stroke-width: 1px;
   cursor: pointer;
-  fill: transparent;
 }
 
 .modal-fifth-icon {
@@ -983,6 +983,7 @@ h2 {
 
 .privacy-policy {
   color: var(--brand-color-iris);
+  text-decoration-line: underline;
 }
 
 .modal-button {
