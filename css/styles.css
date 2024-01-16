@@ -126,16 +126,6 @@ h2 {
   background-color: var(--brand-color-ocean);
   border-radius: 2px;
 }
-.nav-link:active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  width: 100%;
-  background-color: var(--brand-color-ocean);
-  border-radius: 2px;
-}
 
 .nav-link:focus::after {
   content: "";
@@ -147,6 +137,18 @@ h2 {
   background-color: var(--brand-color-ocean);
   border-radius: 2px;
 }
+
+.nav-link:active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  width: 100%;
+  background-color: var(--brand-color-ocean);
+  border-radius: 2px;
+}
+
 
 .header-address {
   color: var(--brand-color-slate);
@@ -845,13 +847,13 @@ h2 {
 }
 
 .modal-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--brand-color-ocean);
   border: none;
   fill: #ffffff;
 }
 
 .modal-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--brand-color-ocean);
   border: none;
   fill: #ffffff;
 }
