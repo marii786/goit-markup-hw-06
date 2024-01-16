@@ -431,7 +431,11 @@ h2 {
   color: var(--brand-color-white);
 }
 
-::placeholder {
+.modal-textarea::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.footer-form-input::placeholder {
   color: var(--brand-color-white);
 }
 
